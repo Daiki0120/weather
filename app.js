@@ -13,7 +13,7 @@ $(document).ready(function() {
       html += '<li>'+weather.wind.direction+' '+weather.wind.speed+' '+weather.units.speed+'</li></ul>';
 
 
-            for(var i=0;i<weather.forecast.length;i++) {
+            for(var i=7;i<weather.forecast.length;i++) {
               html += '<p>'+weather.forecast[i].day+': '+weather.forecast[i].high+'</p>';
             }
 
